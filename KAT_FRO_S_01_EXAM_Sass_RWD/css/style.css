@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+li {
+  display: inline-block; }
+  @media (max-width: 650px) {
+    li {
+      display: none; } }
+
+@media (max-width: 650px) {
+  nav ul:before {
+    content: "Menu"; }
+  nav ul:hover li {
+    display: block; } }
+
+section {
+  height: 100vh;
+  width: 100vw;
+  max-width: 100%; }
+
+.p1 {
+  background-color: #d14774; }
+
+.p2 {
+  background-color: #e084a2; }
+
+.p3 {
+  background-color: #f0c1d1; }
+
+.p4 {
+  background-color: white; }
+
+.p1 {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.p2 {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center; }
+  .p2 p {
+    display: flex;
+    align-content: center;
+    text-align: left;
+    width: 20vw; }
+    @media (max-width: 650px) {
+      .p2 p {
+        width: 100%; } }
+
+.p3 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end; }
+  .p3 p {
+    width: 40vh; }
+    @media (max-width: 650px) {
+      .p3 p {
+        width: 100%; } }
+
+p {
+  width: 80vw;
+  box-shadow: 1px 1px 3px 0 black;
+  padding: 10vh 10vw;
+  border: 1px dotted black; }
+
+/*# sourceMappingURL=style.css.map */

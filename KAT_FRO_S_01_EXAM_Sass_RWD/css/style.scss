@@ -1,0 +1,92 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+//Zadanie 1
+$font-color-prime: palevioletred;
+$font-color-lighter: lighten($font-color-prime, 10%);
+$font-color-darken: darken($font-color-prime, 10%);
+
+//Zadanie 2.
+//Zrobiłam na cssie, bez js, dlatego nie chowa się ponownie po kliknięciu w menu, ale po kliknięciu gdzieś indziej poza stroną.
+//Ale to dużo lepsze i bardziej optymalne rozwiązanie.
+li {
+	display: inline-block;
+	@media (max-width: 650px) {
+		display: none;
+	}
+}
+nav {
+	@media (max-width: 650px) {
+		ul:before {
+			content: "Menu";
+		}
+	ul:hover { //hover na mobile odpowiada kliknięciu
+		li {
+			display: block;
+			}
+		}
+	}
+}
+//Zadanie 3.
+section {
+	height: 100vh;
+	width: 100vw;
+	max-width: 100%;
+}
+@for $i from 1 through 4 {
+	.p#{$i} {
+		background-color: lighten($font-color-darken, 15% * ($i - 1));
+		}
+}
+
+//Zadanie 4.
+.p1 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+//Zadanie 5.
+.p2 {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+		p {
+		    display: flex;
+    		align-content: center;
+    		text-align: left;
+    		width: 20vw;
+			@media (max-width: 650px) {
+				width: 100%;
+			}
+	}
+}
+
+//Zadanie 6.
+.p3 {
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	p {
+		width: 40vh;
+		@media (max-width: 650px) {
+			width: 100%;
+		}
+	}
+}
+
+//Zadanie 7.
+@mixin dialog-box($color) {
+	width: 80vw;
+	box-shadow: 1px 1px 3px 0 $color;
+	padding: 10vh 10vw;
+	border: 1px dotted $color;
+}
+
+p {
+	@include dialog-box(black);
+}
+//Gratis ode mnie - RWD dla całej strony :)
+

@@ -1,0 +1,38 @@
+1. jQuery jest biblioteką napisaną w JavaScripcie
+służącą do operacji na DOM-ie i ujednoliceniu
+działania stron na różnych przeglądarkach.
+
+Nie powinniśmy używać, kiedy wiemy, że strona ma być obsługwana równiez przez starsze wersje przeglądarek, które nie obsłługują jquery lub używanej przez nas wersji.
+Dodatkowo, kiedy zależy nam na szybkości strony i nie chcemy jej bardzo obciążać, napisanie rozwiązań w pure JS jest lepszym rozwiązaniem niż korzystanie z jQ.
+
+2. $(this) jest keywordem  biblioteki jquery, natomiast this to javasript odnoszący się do bieżącego elementu w funkcji/evencie.
+Przy $(this) mamy dodatkowo dostęp do wszystkich jego metod, jakie oferuje biblioteka jquery.
+
+
+3. $('div') wyszukuje element, natomiast $('<div>') go tworzy od nowa.
+
+4. To wyszukiwanie elementów w jquery szybciej, np. poprzez przypisanie raz znalezionego elementu do zmiennej lub wyszukiwanie poprzez .find() (zamiast używać zagnieżdzonych selektorów: $('nav div .main span a'))....
+
+5. POST - wysyła dane
+GET - pobiera dane
+PUT - zmienia dane rekordu
+ DELETE - usuwa bazę lub dany rekord
+ 
+ 9. Na skali efektywności w ciągu jednego tygodnia, gdzie: 10 to stworzenie świata w 7 dni, a 1 to tydzień z życia ucznia na wakacjach, mój tydzień mogę z powodzeniem ocenić na 4 z plusem.
+ Otóz moja to-do list wzbogaciła się o kilkanaście nowych punktów dotyczących książek z front-endu. M.in:
+ - Javascript receptury (z takim hipopotamem)
+ - If Hemingway wrote Javascript (to może być ciekawe z pogranicza JS i beletrystyki)
+ - HTML5 and CSS3 Responsive Web Design Cookbook
+ 
+ Internetowy research zaprowadził mnie do końca internetu i spowrotem, a z tej podróży przybyło mi co najmniej kilkadziesiąt nowych linków w przeglądarce dotyczących kolorowych ikon, pięknych backgroundów i ciekawych tekstur. Moim ulubieńcem została grafika wektorowa. To był ten momemt, kiedy uświadomiłam sobie, że nie starczy mi życia, aby wszystkie je umieścić na stronach internetowych (chyba, że będą to same galerie). Kilka ciekawych:
+ - http://elrumordelaluz.github.io/csshake/ (to jest super)
+ https://coolors.co/
+ http://www.flaticon.com/
+ http://www.peecheey.com/
+ 
+ 
+ Skrzętnie przeglądając facebookowe oferty pracy przejrzałam kilka artukułów na temat Angular vs React (http://react-etc.net/entry/comparison-js-angular-react-vue) i wiedziona przeczuciem zrobiłam pierwszą lekcją dot. reacta na coderschool oraz wyszukałam kolejne kilkanaście pozycji dotyczącej tegoż frameworku do swojej kolekcji to-do.
+ Dodatkowo przejrzałam kilka komentrzy dotyczących tego, który framework backendowy jest najlepszy (jako jedyny mi znany, jestem fanką django, jednak siedząc w JS trudno zlekceważyć Node, natomiast większość firm produkcyjnych uwielbia .net): https://thomasbandt.com/is-nodejs-better-than-aspnet
+ Node.js również powędrowało do mojego to-do z kilkoma pozycjami książkowymi.
+ 
+ Podsumowując: Ten tydzień pokazał mi dobitnie dwie rzeczy:  jak bardzo, bardzo, bardzo wiele jeszcze przede mną  oraz to, że pracując w domu największym wyzwaniem jest motywacja.

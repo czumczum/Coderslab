@@ -1,0 +1,16 @@
+.box{
+  display: block;
+  background-color: green;
+  width: 200px;
+  height: 200px;
+  border: black solid 2px;
+}
+
+.floating{
+  position: absolute;
+  left: 200px;
+  top: 200px;
+}
+.alert {
+	text-align: center;
+}

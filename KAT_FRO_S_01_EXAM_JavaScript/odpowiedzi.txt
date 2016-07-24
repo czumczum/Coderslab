@@ -1,0 +1,5 @@
+1. Można go użyć w funkcjach, jest to słowo kluczowe odnoszące się do określoneo obiektu względem którego funckja jest wywoływana.
+Przydatne, kiedy chcemy odnieść się do danego obiektu i jednocześnie stworzyć uniwersalną funkcję - dającą się używać na różnych obiektach.
+
+2. == porównuje wartości nie zważając na ich typ. np. 2 == "2" to true.
+=== Porównuje wartości i sprawdza, czy są takiego samego typu. Tu 2 === "2" to false.
