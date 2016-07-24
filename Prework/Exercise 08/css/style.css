@@ -1,0 +1,21 @@
+#link {
+	
+color: red;
+border: 1px red solid;
+width: 500px;	
+	
+}
+.paragraf {
+	color: red;
+	border: 1px red solid;
+	width: 500px;
+}
+table {
+	border-style:groove;
+	border-color: ghostwhite;
+}
+td, tr {
+	border-style: double;
+	border-color: black;
+	border-collapse: collapse;
+}

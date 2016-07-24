@@ -1,0 +1,14 @@
+body {
+    background-color: beige;
+}
+#zielony {
+	color: green; }
+#fioletowy {
+	color: darkviolet;
+}
+#braz {
+	color: saddlebrown;
+}
+.block {
+	border-style: solid;
+}

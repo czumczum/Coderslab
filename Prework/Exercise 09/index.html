@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<style>
+	#form1 {
+		font-size: 16px;
+		font-family: sans-serif;
+		color: gray;
+		}
+		.form1 {
+			color: darkgray;
+			width: 400px;
+			padding: 0px;
+		}
+		#form2 {
+			font-size: 18px;
+			color: gray;
+		}
+		h1 {
+			font-size: 32px;
+			color: black;
+		}
+		h2 {
+			font-size: 24px;
+			color: black;
+		}
+			strong {
+			font-size: 24px;
+			color: black;
+		}
+	</style>
+    <meta charset="UTF-8">
+    <title></title>
+
+</head>
+<body>
+	<div id="form1">
+	<form>
+	<fieldset style="width:400px">
+		<p><label for="name">Your Name:</label></p>
+		<p><input class ="form1" type="text" name="name" placeholder="Your Name"></p>
+		<p><label for="email">Your E-mail Address:</label></p>
+		<p><input class="form1" type="email" name="email" placeholder="Your e-mail"></p>
+		<p><label for="message">Your message</label></p>
+		<p><textarea rows="10"  style="width:400px; padding: 0px; color: darkgray" placeholder="Please describe your question or comment"></textarea></p>
+		<input class="form1" type="button" value="Send" style="width:90px; color: black">
+		
+		</fieldset>
+		</form>
+	</div>
+	<br><br>
+	
+	<div id="form2">
+	<form>
+		<fieldset style="width:400px">
+		<h1>Run your inteigent robo-car</h1>
+			<label for="country"><strong>Select Country:</strong></label>
+			<p>Poland: <input class="form2" type="checkbox" value="Pl">
+			US: <input type="checkbox" value="US">
+				San Marino: <input type="checkbox" value="SM"></p>
+			<label for="car"><strong>Select Car:</strong></label>
+		<p>BMW: <input type="radio" value="BWM">
+			Jaguar: <input type="radio" value="Jag"></p>
+			<label><strong>When?</strong></label>
+			<p>Date: <input type="date" placeholder="dd.mm.rrrr"></p>
+			<h2>Start engine.</h2>
+			<p>Enter password*: <input type="password"></p>		<p><input type="button" value="RUN YOUR CAR"></p>		
+		</fieldset></form>
+	
+	
+	
+	
+	
+	
+	</div>
+</body>
+</html>
