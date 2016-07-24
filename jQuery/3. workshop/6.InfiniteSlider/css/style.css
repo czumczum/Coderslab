@@ -1,0 +1,32 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+.slider{
+	height: 203px;
+	width: 400px;
+	overflow: hidden;
+}
+
+.slider ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	display: flex;
+	left: -400px;
+}
+
+.slider li{
+	display: inline-block;
+	
+}
+#dotts li {
+	display: inline-block;
+	margin: 10px;
+	cursor: pointer;
+}
+.current {
+	color: red;
+	font-size: 1.5em;
+}
